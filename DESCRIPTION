@@ -1,0 +1,15 @@
+Package: ISnorm
+Type: Package
+Title: ISnorm：An R/Bioconductor package for normalizing single-cell RNA sequencing (scRNA-seq) data
+Version: 0.1.0
+Author: Lin li
+Maintainer: Lin Li<linli@shanghaitech.edu.cn>
+Depends: R
+Imports: dbscan, parallel
+Description: ISnorm is a method implemented in R for normalizing single-cell RNA sequencing (scRNA-seq) data by a set of constantly expressed genes across all cells (internal spike-in genes, IS genes).
+License: MIT
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/LiLin-biosoft/ISnorm
+BugReports: https://github.com/LiLin-biosoft/ISnorm/issues
+RoxygenNote: 6.1.0
